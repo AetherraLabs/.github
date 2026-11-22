@@ -1,37 +1,26 @@
-# Aetherra
+# Aetherra Labs
 
-**Aetherra** is a production-ready, quantum-enhanced AI-native operating system designed to manage thoughts, goals, and intentions — not just files and processes. At its core lies **Lyrixa**, a hyper-intelligent interface orchestrating memory, agents, plugins, and learning cycles.
+We’re building **Aetherra**, an experimental cognitive operating layer for personal computers. The goal is a companion you can return to the next day and pick up where you left off. Aetherra is the persistent system. **Lyrixa** is the persona you meet in chat.
 
-## 🌌 Key Features
+We’re currently testing how memory, reasoning, and permissions work together in supervised runs with synthetic data. Broader internal alpha use is awaiting acceptance. [Current readiness decision](https://github.com/AetherraLabs/Aetherra/blob/main/docs/ALPHA_READINESS_DECISION.md)
 
-- **Quantum Fractal Adaptive Compression (QFAC)** Memory Engine
-- **Self-aware AI architecture** with emotional intelligence
-- **Plugin Ecosystem**: Extensible, autonomous agents and tools
-- **Web Neural Interface**: Real-time monitoring, memory graph, dashboards
-- **.aether**: Natural language OS scripting for intelligent goals
+## What Lyrixa can remember
 
-## 🔧 Installation
+In a verified conversation, a tester told Lyrixa that their garden observatory was called the *Lantern Room*. After a full restart, they opened an empty chat and asked what they called the place where they watched the stars. Lyrixa retrieved the original record and answered correctly. Asked what color the door was, she said she hadn’t been told. [Read the test and follow the memory record](https://github.com/AetherraLabs/Aetherra/blob/main/docs/PERSONAL_CONTINUITY.md)
 
-### Requirements
-- Python 3.10+
-- Node.js (for GUI build)
-- SQLite (default memory backend)
+## How Aetherra works
 
-### Steps
-```bash
-git clone https://github.com/Aetherra/Aetherra.git
-cd Aetherra
-pip install -r requirements.txt
+- **Memory** stores conversation records locally. The Engine retrieves relevant records and supplies them as evidence when generating a reply.
+- **Guardian and Security** govern what Aetherra can do. Guardian reviews the intent behind an action and can require approval. Security enforces the permissions.
+- **Homeostasis** monitors runtime health. **Self-Improvement** proposes changes for review, and **Self-Incorporation** applies approved changes within their authorized scope.
+- **Aether Script** expresses goals and workflows in `.aether` files. Agents and plugins provide specialized capabilities that workflows can use.
 
-# (Optional) Start GUI
-python launch_aetherra_gui.py
+The project also explores memory compression through QFAC and a simulator-first quantum layer. [Quantum research and roadmap](https://github.com/AetherraLabs/Aetherra/blob/main/docs/MASTER_ROADMAP.md#quantum)
 
-# (Optional) Run web interface
-cd gui && npm install && npm run dev
-```
+## Explore the project
 
-## 🧠 Learn More
-
-- [Aetherra Manifesto](docs/AETHERRA_MANIFESTO.md)
-- [Quantum Memory Roadmap](docs/Roadmaps/Aetherra_QFAC_Roadmap.md)
-- [Official Website](https://aetherra.dev)
+- [Source code and developer quick start](https://github.com/AetherraLabs/Aetherra#quick-start)
+- [Who is Aetherra?](https://github.com/AetherraLabs/Aetherra/blob/main/docs/WHO_IS_AETHERRA.md)
+- [Active systems and their development status](https://github.com/AetherraLabs/Aetherra/blob/main/docs/ACTIVE_SYSTEMS.md)
+- [Internal alpha operator guide](https://github.com/AetherraLabs/Aetherra/blob/main/docs/ALPHA_OPERATOR_RUNBOOK.md)
+- [Aetherra website](https://aetherra.dev/)
